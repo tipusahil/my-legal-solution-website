@@ -52,6 +52,23 @@
     </script>
 
 
+<!-- some important css -->
+<style>
+  footer a{
+    color:#CFCFCF;
+
+  }
+
+  footer h6{
+    font-family:Garamond;
+    color:white;
+    font-size: 24px;
+
+  }
+</style>
+
+
+
     <!-- 
 <i class="fa-solid fa-chevron-right"></i>
 <i class="fa-solid fa-location-arrow"></i>
@@ -369,7 +386,7 @@
   <p class="p_color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
 
-  <div class="grid_form_parent px-3 flex lg:space-x-12 space-y-5 lg:space-y-0 flex-col lg:flex-row border-4  border-red-700 ">
+  <div class="grid_form_parent px-3 flex  space-y-5 lg:space-y-0 flex-col lg:flex-row  justify-center">
 
     <!-- grid side -->
     <div class="grid_div grid grid-cols-2 flex-1 gap-[3px] h-[570px] lg:w-[570px]">
@@ -409,7 +426,7 @@
     </div>
 
     <!-- form -->
-  <form class="flex-1 border-4 border-red-600 space-y-6  drop-shadow-2xl  " style="filter:drop-shadow(0 4px 6px rgba(19, 252, 3, 0.498))">
+  <form class="flex-1 space-y-6  drop-shadow-2xl  " style="filter:drop-shadow(0 4px 6px rgba(19, 252, 3, 0.498))">
 <input type="text" name="" id="" placeholder="Your Name"  class=" h-16 w-[80%] mx-3 lg:mx-10 bg-slate-200 rounded-2xl py-3 px-4 placeholder:text-p_color">
 
 <input type="email" name="" id="" placeholder="Your Email"  class="h-16 w-[80%] mx-3 lg:mx-10 bg-slate-200 rounded-2xl py-3 px-4 placeholder:text-p_color">
@@ -437,8 +454,52 @@
 
 
     <!-- footer start -->
-    <footer class="container mx-auto bg-lime-400">
+    <!-- <footer class="container mx-auto bg-lime-400">
 
+    </footer> -->
+
+
+    <footer class="footer  p-10 py-40 bg-black justify-center text-base-content p-10" >
+
+
+      <nav class="text-center lg:text-left">
+        <h6 class=""><img src="images/logo.png" alt=""></h6>
+        <a class="link link-hover w-full ">
+          There are many variations <br>
+           of passages of Lorem <br>
+            Ipsum available, but the majority <br>
+             have suffered alteration in <br>
+             some form, by injected humour.</a>
+       
+      </nav>
+      <nav>
+        <h6 class="">Usefull Link</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <h6 class="">Contact Now</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+      <form>
+        <h6 class="">Subscribe</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="text-[#CFCFCF]">Enter your email address</span>
+          </label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="tipusahil@LegalLaw.com"
+              class="input input-bordered join-item" />
+            <button class="btn  join-item bg-primary_color"><i class="fa-solid fa-location-arrow"></i></button>
+          </div>
+        </fieldset>
+      </form>
     </footer>
     <!-- footer end -->
 
